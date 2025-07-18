@@ -13,6 +13,68 @@
 
 ## Overview
 
+
+```
++------------------+
+|  Raw Input Images |
+|  (input_images/)  |
++---------+--------+
+          |
+          |  (1) Load raw images
+          v
++---------------------------+
++---------------------------+
+|  Augmentation Component    |
+|  (a_augment.py)            |
+| - Loads transforms.json    |
+| - Applies Albumentations   |
++---------------------------+
++---------------------------+
+          |
+          | (2) Save augmented images
+          v
++-------------------+
+| Augmented Images   |
+| (results/aug_images/)      |
++---------+---------+
+          |
+          | (3) Send augmented images for inference
+          v
++---------------------------+
++---------------------------+       +------------------------------+
+|  Model Server Container    |<----->|  fish_detector model (model.pt)|
+|  (b_inference.py - FastAPI call to port 8000)    |       +------------------------------+
+|  - /predict endpoint       |
+|  - /batch_predict endpoint |
++---------------------------+
++---------------------------+
+          |
+          |(4) Inference results saved per image JSON and Anotated images
+          v
++----------------------+
+| Inference Results     |
+| (results/inference_results/)  |
++----------+-----------+
+           |
+           | (5) Aggregate all JSON predictions
+           v
++----------------------+
++----------------------+
+| COCO Formatter        |
+| (c_coco_formatter.py)   |
+| - Combines JSON files |
+| - Outputs results.json|
++----------+-----------+
++----------------------+
+           |
+           | (6) Final COCO annotations
+           v
++----------------------+
+| Final Output File     |
+| (results/coco_results/results.json)        |
++----------------------+
+```
+
 This repository contains a complete batch image labeling pipeline designed to:
 
 - Host a PyTorch model (`fish_detector`) as a REST API using FastAPI inside a Docker container.
@@ -22,6 +84,8 @@ This repository contains a complete batch image labeling pipeline designed to:
 - Support batch inference through a dedicated model server endpoint.
 - Use Docker Compose for managing multi-container infrastructure, including model hosting and batch processing.
 - Provide unit test examples to facilitate reliable development.
+
+Each task is broken into independant subtask to make them independant to each other. It will also ensure modularity and configurability.
 
 ## Directory Structure
 
@@ -127,10 +191,10 @@ A FastAPI app (`model_server/app.py`) loads the `fish_detector` model and expose
 * **Augmentation Pipeline (`a_augment.py`)**
   Loads augmentation pipeline from `configs/transforms.json` using Albumentations serialization API and applies to images.
 
-* **Inference Client (`inference.py`)**
+* **Inference Client (`b_inference.py`)**
   Reads augmented images, sends them to model server, and saves individual prediction JSONs.
 
-* **COCO Formatter (`coco_formatter.py`)**
+* **COCO Formatter (`c_coco_formatter.py`)**
   Aggregates all per-image JSONs into COCO format, managing unique IDs and metadata.
 
 * **Infrastructure (`infra_control.py`)**
