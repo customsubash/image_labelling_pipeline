@@ -7,11 +7,11 @@ MODEL_SERVER_URL = "http://localhost:8000/predict"
 INFER_DIR = "results/inference_results"
 
 
-def run_inference(input_dir):
+def run_inference(input_location):
     os.makedirs(INFER_DIR, exist_ok=True)
     predictions = []
-    for fname in os.listdir(input_dir):
-        img_path = os.path.join(input_dir, fname)
+    for fname in os.listdir(input_location):
+        img_path = os.path.join(input_location, fname)
         print(f"Sending image {fname} for inference.")
         with open(img_path, 'rb') as img_file:
             response = requests.post(
@@ -80,3 +80,6 @@ def run_batch_inference(input_location: str, output_location: str, poll_interval
     except Exception as e:
         print(f"Error during batch inference or polling: {e}")
         raise
+
+if __name__ == "__main__":
+    result = run_batch_inference(input_location='results/aug_images', output_location='results/inference_results')

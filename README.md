@@ -121,16 +121,14 @@ batch_labeling_pipeline/
 
 ## Setup and Running the Pipeline
 
-### 1. Build and start everything with Docker Compose:
+### Build, start and decomission everything:
 
 ```bash
-docker compose up --build
-````
+bash run_pipeline.sh
+```
 
-It will take time to setup and install dependancies, could be optimized by creating and host the image.
-or,
 ```bash
-python main.py # you might have to setup virtual env before running and install requirements manually
+python main.py # you have to setup virtual env before running and install requirements manually
 ````
 
 This will:
@@ -144,12 +142,8 @@ This will:
   * Saves per-image predictions in `results/inference_results/`.
   * Aggregates predictions into COCO JSON format saved as `results/coco_results/results.json`.
 * `aug_images/`, `inference_results/` and `coco_results/` directories are created inside `results/` automatically on each fresh on each run.
+* Stop the model_server container and exit.
 
-### 2. When finished, shut down services and clean up:
-
-```bash
-docker compose down
-```
 
 ## How It Works
 

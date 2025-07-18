@@ -1,7 +1,7 @@
-fastapi
-uvicorn
-torch
-torchvision
+# fastapi
+# uvicorn
+# torch
+# torchvision
 python-multipart
 albumentations
 pillow

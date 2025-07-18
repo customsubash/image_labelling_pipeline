@@ -162,3 +162,8 @@ async def predict(file: UploadFile = File(...)):
     image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
     prediction = predict_image(image)
     return prediction
+
+
+@app.get("/healthcheck")
+async def predict():
+    return "API is up and running."
