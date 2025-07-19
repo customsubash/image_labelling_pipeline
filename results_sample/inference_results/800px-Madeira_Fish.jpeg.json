@@ -1,0 +1,182 @@
+{
+  "width": 500,
+  "height": 375,
+  "bboxes": [
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        146,
+        0,
+        215,
+        44
+      ],
+      "score": 0.9696230888366699
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        189,
+        158,
+        293,
+        217
+      ],
+      "score": 0.969253420829773
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        403,
+        102,
+        492,
+        166
+      ],
+      "score": 0.9678944945335388
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        407,
+        283,
+        500,
+        371
+      ],
+      "score": 0.9641521573066711
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        0,
+        34,
+        121,
+        136
+      ],
+      "score": 0.9492412209510803
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        201,
+        27,
+        345,
+        101
+      ],
+      "score": 0.9304782152175903
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        37,
+        287,
+        208,
+        375
+      ],
+      "score": 0.903157651424408
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        283,
+        135,
+        451,
+        211
+      ],
+      "score": 0.885177731513977
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        119,
+        47,
+        204,
+        124
+      ],
+      "score": 0.8693575263023376
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        163,
+        85,
+        244,
+        173
+      ],
+      "score": 0.8652093410491943
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        0,
+        206,
+        127,
+        271
+      ],
+      "score": 0.7830733060836792
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        100,
+        201,
+        185,
+        248
+      ],
+      "score": 0.6617485284805298
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        4,
+        51,
+        145,
+        273
+      ],
+      "score": 0.4880981147289276
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        233,
+        85,
+        368,
+        152
+      ],
+      "score": 0.4174925982952118
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        293,
+        180,
+        441,
+        269
+      ],
+      "score": 0.3552781641483307
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        403,
+        280,
+        463,
+        320
+      ],
+      "score": 0.14273642003536224
+    }
+  ]
+}

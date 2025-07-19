@@ -1,0 +1,28 @@
+{
+  "width": 500,
+  "height": 375,
+  "bboxes": [
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        0,
+        72,
+        500,
+        375
+      ],
+      "score": 0.31520283222198486
+    },
+    {
+      "category_id": 0,
+      "class_name": "Fish",
+      "bbox": [
+        17,
+        153,
+        198,
+        369
+      ],
+      "score": 0.09765034168958664
+    }
+  ]
+}

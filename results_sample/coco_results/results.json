@@ -1,0 +1,476 @@
+{
+  "images": [
+    {
+      "id": 0,
+      "file_name": "20240614_great_blue_heron_with_fish_beaver_brook_open_space_PD200754.jpg",
+      "width": 500,
+      "height": 335
+    },
+    {
+      "id": 1,
+      "file_name": "800px-Madeira_Fish.jpeg",
+      "width": 500,
+      "height": 375
+    },
+    {
+      "id": 2,
+      "file_name": "Koi_fish_in_the_water.jpg",
+      "width": 500,
+      "height": 375
+    },
+    {
+      "id": 3,
+      "file_name": "Malate,_Manila,_Aquarium,_Fish_2,_Philippines.jpg",
+      "width": 500,
+      "height": 281
+    },
+    {
+      "id": 4,
+      "file_name": "Posidonia_oceanica_(L).jpg",
+      "width": 500,
+      "height": 375
+    }
+  ],
+  "annotations": [
+    {
+      "id": 0,
+      "image_id": 0,
+      "category_id": 0,
+      "bbox": [
+        176,
+        72,
+        499,
+        323
+      ],
+      "score": 0.9845991134643555,
+      "area": 161177,
+      "iscrowd": 0
+    },
+    {
+      "id": 1,
+      "image_id": 0,
+      "category_id": 0,
+      "bbox": [
+        180,
+        79,
+        260,
+        237
+      ],
+      "score": 0.1752675473690033,
+      "area": 61620,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 0,
+      "category_id": 0,
+      "bbox": [
+        379,
+        110,
+        492,
+        268
+      ],
+      "score": 0.08998814225196838,
+      "area": 131856,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        146,
+        0,
+        215,
+        44
+      ],
+      "score": 0.9696230888366699,
+      "area": 9460,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        189,
+        158,
+        293,
+        217
+      ],
+      "score": 0.969253420829773,
+      "area": 63581,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        403,
+        102,
+        492,
+        166
+      ],
+      "score": 0.9678944945335388,
+      "area": 81672,
+      "iscrowd": 0
+    },
+    {
+      "id": 6,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        407,
+        283,
+        500,
+        371
+      ],
+      "score": 0.9641521573066711,
+      "area": 185500,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        0,
+        34,
+        121,
+        136
+      ],
+      "score": 0.9492412209510803,
+      "area": 16456,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        201,
+        27,
+        345,
+        101
+      ],
+      "score": 0.9304782152175903,
+      "area": 34845,
+      "iscrowd": 0
+    },
+    {
+      "id": 9,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        37,
+        287,
+        208,
+        375
+      ],
+      "score": 0.903157651424408,
+      "area": 78000,
+      "iscrowd": 0
+    },
+    {
+      "id": 10,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        283,
+        135,
+        451,
+        211
+      ],
+      "score": 0.885177731513977,
+      "area": 95161,
+      "iscrowd": 0
+    },
+    {
+      "id": 11,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        119,
+        47,
+        204,
+        124
+      ],
+      "score": 0.8693575263023376,
+      "area": 25296,
+      "iscrowd": 0
+    },
+    {
+      "id": 12,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        163,
+        85,
+        244,
+        173
+      ],
+      "score": 0.8652093410491943,
+      "area": 42212,
+      "iscrowd": 0
+    },
+    {
+      "id": 13,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        0,
+        206,
+        127,
+        271
+      ],
+      "score": 0.7830733060836792,
+      "area": 34417,
+      "iscrowd": 0
+    },
+    {
+      "id": 14,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        100,
+        201,
+        185,
+        248
+      ],
+      "score": 0.6617485284805298,
+      "area": 45880,
+      "iscrowd": 0
+    },
+    {
+      "id": 15,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        4,
+        51,
+        145,
+        273
+      ],
+      "score": 0.4880981147289276,
+      "area": 39585,
+      "iscrowd": 0
+    },
+    {
+      "id": 16,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        233,
+        85,
+        368,
+        152
+      ],
+      "score": 0.4174925982952118,
+      "area": 55936,
+      "iscrowd": 0
+    },
+    {
+      "id": 17,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        293,
+        180,
+        441,
+        269
+      ],
+      "score": 0.3552781641483307,
+      "area": 118629,
+      "iscrowd": 0
+    },
+    {
+      "id": 18,
+      "image_id": 1,
+      "category_id": 0,
+      "bbox": [
+        403,
+        280,
+        463,
+        320
+      ],
+      "score": 0.14273642003536224,
+      "area": 148160,
+      "iscrowd": 0
+    },
+    {
+      "id": 19,
+      "image_id": 2,
+      "category_id": 0,
+      "bbox": [
+        135,
+        6,
+        381,
+        288
+      ],
+      "score": 0.9580677151679993,
+      "area": 109728,
+      "iscrowd": 0
+    },
+    {
+      "id": 20,
+      "image_id": 2,
+      "category_id": 0,
+      "bbox": [
+        155,
+        245,
+        491,
+        375
+      ],
+      "score": 0.8532163500785828,
+      "area": 184125,
+      "iscrowd": 0
+    },
+    {
+      "id": 21,
+      "image_id": 2,
+      "category_id": 0,
+      "bbox": [
+        0,
+        114,
+        126,
+        232
+      ],
+      "score": 0.5734490156173706,
+      "area": 29232,
+      "iscrowd": 0
+    },
+    {
+      "id": 22,
+      "image_id": 2,
+      "category_id": 0,
+      "bbox": [
+        11,
+        113,
+        191,
+        363
+      ],
+      "score": 0.3495529890060425,
+      "area": 69333,
+      "iscrowd": 0
+    },
+    {
+      "id": 23,
+      "image_id": 3,
+      "category_id": 0,
+      "bbox": [
+        218,
+        203,
+        273,
+        232
+      ],
+      "score": 0.8974368572235107,
+      "area": 63336,
+      "iscrowd": 0
+    },
+    {
+      "id": 24,
+      "image_id": 3,
+      "category_id": 0,
+      "bbox": [
+        282,
+        169,
+        386,
+        216
+      ],
+      "score": 0.7844496369361877,
+      "area": 83376,
+      "iscrowd": 0
+    },
+    {
+      "id": 25,
+      "image_id": 3,
+      "category_id": 0,
+      "bbox": [
+        240,
+        68,
+        359,
+        169
+      ],
+      "score": 0.5860878229141235,
+      "area": 60671,
+      "iscrowd": 0
+    },
+    {
+      "id": 26,
+      "image_id": 3,
+      "category_id": 0,
+      "bbox": [
+        297,
+        233,
+        339,
+        270
+      ],
+      "score": 0.5851530432701111,
+      "area": 91530,
+      "iscrowd": 0
+    },
+    {
+      "id": 27,
+      "image_id": 3,
+      "category_id": 0,
+      "bbox": [
+        417,
+        205,
+        500,
+        249
+      ],
+      "score": 0.4473140835762024,
+      "area": 124500,
+      "iscrowd": 0
+    },
+    {
+      "id": 28,
+      "image_id": 3,
+      "category_id": 0,
+      "bbox": [
+        284,
+        45,
+        494,
+        233
+      ],
+      "score": 0.1641911268234253,
+      "area": 115102,
+      "iscrowd": 0
+    },
+    {
+      "id": 29,
+      "image_id": 4,
+      "category_id": 0,
+      "bbox": [
+        0,
+        72,
+        500,
+        375
+      ],
+      "score": 0.31520283222198486,
+      "area": 187500,
+      "iscrowd": 0
+    },
+    {
+      "id": 30,
+      "image_id": 4,
+      "category_id": 0,
+      "bbox": [
+        17,
+        153,
+        198,
+        369
+      ],
+      "score": 0.09765034168958664,
+      "area": 73062,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "object"
+    }
+  ]
+}
